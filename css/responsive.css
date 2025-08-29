@@ -1,17 +1,65 @@
-/* 
-  * Add the styles that belong to the DESKTOP view only
-  * Add the media rule and the styles that are common within the TABLET and MOBILE views
-  * Add the media rule and the styles that belong to the MOBILE view only
-*/
-
-@media (min-width: 1024px) {
-  /* .top-navigation .trigram {
-    display: none;
-  } */
-
-  /* 👇👇👇 Add the styles that belong to the DESKTOP view only beneath 👇👇👇 */
-}
+/* 👇👇👇 Add the styles that belong to the DESKTOP view only beneath 👇👇👇 */
 
 /* 👇👇👇 Add the media rule and the styles that are common within the TABLET and MOBILE views beneath 👇👇👇 */
 
 /* 👇👇👇 Add the media rule and the styles that belong to the MOBILE view only beneath 👇👇👇 */
+
+/******************************* For Desktop Screen ********************************/
+@media (min-width: 1024px) {
+  .top-navigation .trigram {
+    display: none;
+    padding: 0;
+    margin: 0;
+  }
+  .content {
+    margin: 0;
+    max-width: 100%;
+  }
+  .content .section-info p.subtext {
+    color: #969696;
+  }
+  .fa .fa-bars,
+  ul li:nth-child(3) {
+    display: none;
+  }
+  .trigram {
+    display: none;
+  }
+}
+/******************************* For Tablet Screen ********************************/
+@media (min-width: 768px) AND (max-width: 1023px) {
+  .top-navigation ul {
+    display: none;
+  }
+
+  .top-navigation .trigram i.fa.fa-bars {
+       display: contents;
+       color: red;
+  }
+  .content .section-info p.subtext {
+    color: #969696;
+}
+ .header-content
+{
+    border-bottom: 2px solid #969696;
+}
+
+}
+/******************************* For Mobile Screen ********************************/
+@media (min-width: 1px) AND (max-width: 767px) {
+  .top-navigation .trigram i.fa.fa-bars {
+    display: contents;
+    color: blue;
+  }
+  .top-navigation ul {
+    display: none;
+  }
+
+.content .section-info p.subtext {
+    color: #969696;
+}
+ .header-content
+{
+    border-bottom: 2px solid #969696;
+}
+}
