@@ -39,7 +39,7 @@ Acceptance criteria:
 
 - [x] The responsive HTML meta tag is set.
 - [ ] The website should replicate the mockup for desktop, tablet, and mobile views, incorporating all aspects such as fonts, font sizes, colors, paddings, margins, gaps, etc.
-- [ ] The hover styles are added for the desktop view for:
+- [x] The hover styles are added for the desktop view for:
   - The top navigation items
   - The social icons of the teammate
   - The links in the footer (social icons and labels, emails, phone numbers)
