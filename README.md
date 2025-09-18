@@ -30,15 +30,15 @@ This assignment should prove that a student is able to:
 - [x] VSCode IDE MUST have 0 problems listed
 - [x] The code of the index.html and styles.css should pass the W3C validation (Feel free to use either the "w3c web validator" VSCode extension or the "Online w3c Markup Validation Service")
 - [x] The code MUST be formatted with Prettier.
-- [ ] Push the changes to the Github repo, when finished.
-- [ ] Submit a .txt file with the Github repo url.
+- [x] Push the changes to the Github repo, when finished.
+- [x] Submit a .txt file with the Github repo url.
 
 ## Specific requirements
 
 Acceptance criteria:
 
 - [x] The responsive HTML meta tag is set.
-- [ ] The website should replicate the mockup for desktop, tablet, and mobile views, incorporating all aspects such as fonts, font sizes, colors, paddings, margins, gaps, etc.
+- [x] The website should replicate the mockup for desktop, tablet, and mobile views, incorporating all aspects such as fonts, font sizes, colors, paddings, margins, gaps, etc.
 - [x] The hover styles are added for the desktop view for:
   - The top navigation items
   - The social icons of the teammate
