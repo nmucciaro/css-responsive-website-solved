@@ -61,26 +61,6 @@
   .phones a:hover {
     color: blue;
   }
-  /* Noting works because I can not have access to styles.css so I can not use any of the below commands!!! 
-  You can not edited anything below OUR TEAM because styles.css over rights anything you try to edit.  This 
-  responsive.css file is only good for media queries and allowable elements allowed to edit, which we did not cover
-  in these videos!!!
-  .teammates-list:after .teammates-list:before {
-    display: none;
-    visibility: hidden;
-    color: white;
-  }
-  .teamate-list-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .teammate-data{
-    display: flex;
-    justify-content: center;
-  }
-  .social-icons{
-    
-  }*/
 }
 /******************************* For Tablet Screen ********************************/
 @media (min-width: 768px) AND (max-width: 1023px) {
@@ -102,6 +82,31 @@
   .header-content {
     border-bottom: 2px solid #969696;
   }
+  .teammates-list:after,
+  .teammates-list:before {
+    display: none;
+  }
+  .teammates-list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .social-icons span {
+    display: none;
+  }
+  footer .social-icons {
+    width: 200px;
+  }
+  .footer-contacts ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .facebook .icon {
+    background-color: white;
+  }
+  footer .social-icons .icon {
+    background-color: white;
+  }
+
   .top-navigation a:hover {
     color: blue;
   }
@@ -168,9 +173,51 @@
     display: flex;
     flex-direction: column;
   }
-  span {
+  .item-title {
     display: flex;
     justify-content: center;
+  }
+  .teammates-list:after,
+  .teammates-list:before {
+    display: none;
+  }
+  .teammate {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid grey;
+    padding: 1rem;
+    width: 100%;
+  }
+  .teammate-info .teammate-name .teammate-role {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .teammate-data {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 20px;
+    width: 100%;
+  }
+  .section-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .teammates-list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .portfolio-item-info .item-description {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .teammate-social-icons {
+    gap: 15px;
+  }
+  .teammate-image-wrapper {
+    width: 100%;
   }
   .top-navigation .trigram i.fa.fa-bars {
     display: contents;
@@ -220,5 +267,28 @@
   }
   .phones a:hover {
     color: blue;
+  }
+  .social-icons {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  .facebook .icon {
+    background-color: white;
+  }
+  footer .social-icons .icon {
+    background-color: white;
+  }
+  .footer-contacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .footer-contacts ul li a {
+    text-decoration: none;
+    color: white;
   }
 }
