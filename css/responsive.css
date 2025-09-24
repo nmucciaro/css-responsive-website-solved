@@ -61,6 +61,12 @@
   .phones a:hover {
     color: blue;
   }
+  .facebook:hover div.icon,
+  .twitter:hover div.icon,
+  .instagram:hover div.icon,
+  .linked-in:hover div.icon {
+    background-color: white;
+  }
 }
 /******************************* For Tablet Screen ********************************/
 @media (min-width: 768px) AND (max-width: 1023px) {
@@ -90,6 +96,13 @@
     display: flex;
     flex-wrap: wrap;
   }
+  .teammate-img-wrapper {
+    width: 100%;
+  }
+  .teammate-data {
+    align-items: center;
+  }
+
   .social-icons span {
     display: none;
   }
@@ -106,7 +119,21 @@
   footer .social-icons .icon {
     background-color: white;
   }
-
+  .teammate-social-icons div.facebook,
+  div.twitter div.linkedin {
+    background-color: #969696;
+  }
+  .footer-contacts {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+    width: 60%;
+    flex-wrap: wrap;
+  }
+  .teammate-info {
+    align-items: center;
+  }
   .top-navigation a:hover {
     color: blue;
   }
@@ -205,7 +232,6 @@
     flex-direction: row;
   }
   .teammates-list-wrapper {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
