@@ -95,6 +95,7 @@
   .teammates-list-wrapper {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
   }
   .teammate-img-wrapper {
     width: 100%;
@@ -128,8 +129,7 @@
     justify-content: center;
     gap: 30px;
     margin: 0 auto;
-    width: 60%;
-    flex-wrap: wrap;
+    width: 100%;
   }
   .teammate-info {
     align-items: center;
@@ -183,6 +183,12 @@
   }
   .portfolio-item-info .item-title {
     padding-top: 15px;
+  }
+  .teammate {
+    width: 47%;
+  }
+  .teammates-list {
+    margin: 0 auto;
   }
 }
 /******************************* For Mobile Screen ********************************/
